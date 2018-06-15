@@ -1,0 +1,4 @@
+#Fri Jun 15 17:25:12 IST 2018
+base.0=/home/nasiruddin/Desktop/June-18/myApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/nasiruddin/Desktop/June-18/myApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
