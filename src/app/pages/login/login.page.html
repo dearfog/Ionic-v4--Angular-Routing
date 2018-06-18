@@ -1,7 +1,7 @@
 <div class="signin-content">
   <mat-card>
     <mat-card-content>
-      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!-- <form [formGroup]="form" (ngSubmit)="onSubmit()">
         <p>Please login to continue</p>
         <mat-form-field class="full-width-input">
           <input matInput placeholder="User" formControlName="userName" required>
@@ -15,15 +15,30 @@
             Please inform your password
           </mat-error>
         </mat-form-field>
+      </form> -->
+     
+      <form>
+        <mat-form-field>
+          <span matPrefix>+91 &nbsp;</span>
+          <input type="tel" matInput placeholder="Phone Number" [(ngModel)]='phoneNumber' [ngModelOptions]="{standalone: true}">
+          <mat-icon matSuffix>call</mat-icon>
+        </mat-form-field>
+        <mat-form-field>
+          <input type="text" matInput placeholder="OTP Code" [(ngModel)]='code' [ngModelOptions]="{standalone: true}">
+          <mat-icon matSuffix>sms</mat-icon>
+        </mat-form-field>
       </form>
-      <div class="col-md-12">
+      <button mat-raised-button color="primary" (click)='sendOTP()'>Send OTP</button>
+      <button mat-raised-button color="primary" (click)='verifyOTP()'>Verify</button>
+
+      <!-- <div class="col-md-12">
         <div class="col-md-6">
           <button mat-raised-button color="primary">Login</button>
         </div>
         <div class="col-md-6">
           <button mat-raised-button color="accent">Register</button>
         </div>
-      </div>
+      </div> -->
     </mat-card-content>
   </mat-card>
 </div>

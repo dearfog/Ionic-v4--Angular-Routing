@@ -14,6 +14,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { LayoutPage } from './pages/layout/layout.page';
 
+import * as firebase from 'firebase';
+var config = {
+  apiKey: "AIzaSyB22Ff1WwcwHu-k8juqdjRjAmV8Z4OMW7w",
+  authDomain: "angular-man.firebaseapp.com",
+  databaseURL: "https://angular-man.firebaseio.com",
+  projectId: "angular-man",
+  storageBucket: "angular-man.appspot.com",
+  messagingSenderId: "874059671922"
+};
+firebase.initializeApp(config);
 @NgModule({
   declarations: [
     AppComponent, 

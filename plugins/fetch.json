@@ -38,5 +38,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-firebase": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/jestcastro/cordova-plugin-firebase.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
