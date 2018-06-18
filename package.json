@@ -30,7 +30,6 @@
     "@ionic/ng-toolkit": "1.0.0-rc.8",
     "@ionic/schematics-angular": "1.0.0-rc.8",
     "bootstrap": "^4.1.1",
-    "cordova-android": "7.0.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-firebase": "git+https://github.com/jestcastro/cordova-plugin-firebase.git",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
@@ -79,8 +78,6 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-firebase": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }
