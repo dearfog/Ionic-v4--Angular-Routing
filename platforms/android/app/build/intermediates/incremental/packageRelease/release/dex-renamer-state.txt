@@ -1,0 +1,4 @@
+#Tue Jun 19 16:48:19 IST 2018
+base.0=/home/nasiruddin/Desktop/June-18/myApp/platforms/android/app/build/intermediates/transforms/dex/release/0
+renamed.0=classes.dex
+file.0=/home/nasiruddin/Desktop/June-18/myApp/platforms/android/app/build/intermediates/transforms/dex/release/0/classes.dex
